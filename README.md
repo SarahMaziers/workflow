@@ -17,7 +17,7 @@
 Notre workflow utilise [5 plugins grunt](http://gruntjs.com/plugins).
 
 * [grunt-sass](https://www.npmjs.com/package/grunt-sass), qui compile les fichiers _scss_ vers _css_.
-* [grunt-eslint](https://www.npmjs.com/package/grunt-eslint), qui analyse nos fichiers javascript avec [eslint](http://eslint.org/) (les règles en application se trouvent dans le fichier [.eslintrc.json](./.eslintrc.json)).
+* [grunt-eslint](https://www.npmjs.com/package/grunt-eslint), qui analyse nos fichiers javascript avec [eslint](http://eslint.org/) (les règles en application se trouvent dans le fichier [eslintrc.json](./eslintrc.json)).
 * [grunt-contrib-watch](https://www.npmjs.com/package/grunt-contrib-watch), qui observe les changements sur nos fichiers pour déclancher des tâches à la volée.
 * [grunt-browser-sync](https://www.npmjs.com/package/grunt-browser-sync), qui peut créer un serveur de prévisualisation, ou un _serveur proxy_, pour recharger notre navigateur à chaque changement. Plus de détails sur le [site de browser-sync](https://browsersync.io/docs/grunt/).
 * [grunt-cowsay](https://www.npmjs.com/package/grunt-cowsay), qui affiche un petit message en fin de certaines tâches.
